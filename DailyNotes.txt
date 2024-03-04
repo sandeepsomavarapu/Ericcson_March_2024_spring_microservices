@@ -1,0 +1,178 @@
+Day-1:
+========
+Spring Core :
+=============
+Spring Framework:
+==================
+
+	boiler plate code 
+	
+	frameworks
+		
+		1)Invasive   
+			
+			struts:even though its a framework ,it will force to the developer to implement predefined API
+			
+		2)non -invasive 
+
+			spring,hibernate:it will never force to the developer to implement predefined API
+			
+			
+	spring is a non-invasive framework,which is used to create loosley coupled and light weight application.
+
+
+
+
+
+
+servlet
+
+
+	1)implements Servlet
+	2)extends GerneicServlet
+	3)extends HttpServlet
+
+	3 HttpServlet-->12 methods
+
+
+1*12=12 
+
+1000*12=12000
+class Login
+{
+
+
+}
+
+EJB-->Rod Johnson-->interface-21 -->spring framework--2003 1.x
+														   6.x
+									windows-11
+									iphone-15
+tightly coupled:
+================
+
+class Test
+{
+	public Test(String name)
+	{
+	.....
+	
+	}
+public void m1()
+{
+
+
+}
+
+}
+
+class Sample
+{
+
+p s v main(String args[])
+{
+ Test test =new Test();			
+		test.m1();
+
+}
+
+}
+
+
+-->springcontainer -->BeanFactory,ApplicationContext
+
+		1)creation of object
+		2)wiring the object
+		3)configuring the object
+		4)destroying the object 
+
+
+spring framework:dependency injection/IOC/Spring core 
+
+loosley coupled 
+
+				
+		class info
+	configuration file-->container --->instantiation--->getBean
+
+
+		xml
+		annotation
+		java 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
