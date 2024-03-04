@@ -96,15 +96,38 @@ loosley coupled
 	configuration file-->container --->instantiation--->getBean
 
 
-		xml
+		xml  <beans><bean>,class,id,ref,scope,autowire-->@Autowired
 		annotation
 		java 
 
 
 
+spring core 
+		setter injection-->setter methood --><property>
+		constructor injection-->constructor---><constructor-arg>			
+		autowiring 
 
 
+NOTE:
+=====
 
+spring has given annotations like @Component/@Service/@Repository... 
+for userdefined classes but not for predefined classes
+
+
+		
+Java config:
+============
+
+
+@Bean
+public Employee getEmployee(){
+
+	return new Employee();
+
+}
+
+AutoConfiguration
 
 
 
