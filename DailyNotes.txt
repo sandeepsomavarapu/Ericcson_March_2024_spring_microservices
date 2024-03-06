@@ -129,53 +129,132 @@ public Employee getEmployee(){
 
 AutoConfiguration
 
+JDBC-->java -->database -->API-->sun micro system 5 steps
+
+	JPA-->specification
+	
+		ORM tools-->hibernate,eclipse link,top link,ibatis....
+
+
+employee-->operations
+	
+
+Employee
+
+
+Client
+
+
+META-INF-->persistance.xml
+
+	database properties
+	username
+	password
+	driverclass
+	url
+	
+	
+	
+	hibernate properties 
+
+
+
+JPQL:
+			java persistence query language 
+			
+			mysql
+			
+			JPQL
+			querys:datababase independent 
+
+
+SpringBoot:
+============		spring 4.x -->spring boot  3.x java17
+		
+	1)configuration
+	2)server
+	3)jars					
+	
+	SPring boot
+
+1)auto configuration (most of the commonly used classes already configured by the springboot)
+2)Embeded Server		tomcat server
+3)starters			 spring-boot-starter-parent-->
+4)Actuators  	end point urls /beans /health /env insite 
+
+
+
+	datasource-->hikari,tomcat,c3po   <exclusions><exclude> 
+	-->dispatcherServlet--viewResolver
+
+
+STS->spring tool suite 
+
+spring intializer
+
+
+Webservices:
+============
+
+	URL
+	REST
+
+for testing Postman tool/swagger 
 
 
 
 
+Productmanagement 
 
+	1)Add Product
+	2)Update Product
+	3)Delete Product
+	4)Get Product
+	5)Get All Products
+	6)Get All products between the prices
+	7)Get All Products By Category
+	8)Get All Products by Brand
+	
+	
+	Rest-->JP-->hibernate-->mysql
+	
+	
+	
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	url
+		@Component/@Service/@Repository
+		@Configuration
+		@ComponentScan
+		@Autowired
+		@Scope
+		@Value
+		@Bean
+		
+		
+		@RequestMapping(value="/login",method=MethodType.POST)
+		@PostMapping
+		@GetMapping
+		@PutMapping
+		@DeleMapping
+		
+		@Controller
+		@RequestBody
+		@ResponseBody
+		@RestController
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 
 
