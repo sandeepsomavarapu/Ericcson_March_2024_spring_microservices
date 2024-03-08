@@ -241,35 +241,80 @@ Productmanagement
 		@RequestBody
 		@ResponseBody
 		@RestController
+		@ExceptionHandler
+		@ControllerAdvice
+		
+Exception Handling:
+===================		
 		
 		
+		controller 
 		
 		
+		exception
+		validation		mobilenumber  sandeep
+		
+		password
+		cpassword
 		
 		
+		for validation 
 		
-		
-		
-		
-		
-		
-		
+		validation-->starter window 
 		
 
+controller level exception handling
+application level exception handling
+
+Spring Repositories
+
+CrudRepository
+
+		crud opertaions
+		
+PagingAndSortingRepository
+
+
+JpaRepository		
+
+
+DSL Grammer
 
 
 
 
+spring security
+
+
+authentication
+authoerization
+
+CORS
+
+
+Monolithic Architecture 
+
+
+Microservices:
+===============
+Devide/decompose your large project into smaller services and later communicate them...
 
 
 
+	communication
+	
+	
+		1)asynchronous communication  kafka,activemq,rabbitmq....
+		
+		2)synchronous communication RestTemplate
+	
 
+centralised config
 
-
-
-
-
-
+	spring cloud 
+				git hub
+		
+	config server 
 
 
 
